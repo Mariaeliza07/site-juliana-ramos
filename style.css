@@ -42,3 +42,32 @@ nav img {
     height:48px;
 
 }
+.menu-botao {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: var(--rosa-noite);
+    cursor: pointer;
+
+}
+@media (max-width: 768px) {
+    nav ul {
+    display: none;
+    }
+    
+    .menu-botao {
+        display: block;
+    }
+    nav {
+        flex-wrap: wrap;
+    }
+    nav ul.aberto {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+        padding-top: 16px;
+
+    }
+    }
