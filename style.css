@@ -1,0 +1,22 @@
+:root {
+    --rosa-noite: #6E1B43;
+    --dourado: #e3c27e;
+    --areia: #f3e8e2;
+    --texto: #2a1520;
+
+
+}
+
+body {
+    background-color: var(--areia);
+    color: var(--texto);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+    
+}
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    color: var(--rosa-noite);
+}
